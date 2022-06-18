@@ -88,6 +88,24 @@ body{
     }
 }
 
+main{
+    max-width: 50%;
+    margin: auto;
+}
+
+.sobre{
+    display: flex;
+    margin: 15px 0px;
+}
+
+.sobre-foto{
+    margin-right: 15px;
+}
+
+.sobre-textos p{
+    height: 40px;
+}
+
 .fabio{
     border-radius: 50%;
     height: 150px;
