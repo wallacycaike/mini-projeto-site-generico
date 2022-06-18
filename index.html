@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +10,17 @@
     <script src="https://kit.fontawesome.com/1ccb829757.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <label class="logo">Fabio Ruicci 🐍</label>
-            <li><a href="#">Artigos</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Livros</a></li>
-        </ul>
+    <nav class="navbar">
+        <a href="#" class="logo">Fabio Ruicci 🐍</a>
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><i class="fa-solid fa-bars"></i></label>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#">Artigos</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Livros</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <div class="sobre">
@@ -48,12 +52,12 @@
     <footer>
         <p>© Fabio Ruicci 2022</p>
         <p>contato@fabioruicci.com.br</p>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-discord"></i>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-discord"></i></a>
     </footer>
 </body>
 </html>
